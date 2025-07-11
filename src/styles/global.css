@@ -1,0 +1,41 @@
+
+/* Custom Font Import (Example: Poppins via Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy&display=swap');
+:root {
+  --primary-green: #226D4E;
+  --accent-green: #1B8E5E;
+  /* --light-bg: #F5F3EF; */
+}
+
+/* Apply font globally */
+body {
+  @apply font-[Poltawski Nowy] bg-[#F5F3EF] text-[#1A1A1A] antialiased;
+}
+
+/* Custom button styles */
+.btn-primary {
+  @apply bg-[#1B8E5E] text-white px-6 py-2 rounded-md font-medium transition duration-300 hover:bg-[#124c3a];
+}
+
+.btn-outline {
+  @apply border-2 border-[#1B8E5E] text-[#1B8E5E] px-6 py-2 rounded-md font-medium transition duration-300 hover:bg-[#1B8E5E] hover:text-white;
+}
+
+/* Style option cards */
+.style-green {
+  @apply bg-[#00663B] text-white py-4 px-4 rounded-xl font-semibold text-center cursor-pointer;
+}
+
+.style-blue {
+  @apply bg-[#44B2D3] text-white py-4 px-4 rounded-xl font-semibold text-center cursor-pointer;
+}
+
+.style-red {
+  @apply bg-[#9A1F53] text-white py-4 px-4 rounded-xl font-semibold text-center cursor-pointer;
+}
+
+/* Stats row */
+.stats-row {
+  @apply flex flex-wrap gap-8 text-sm mt-8 font-medium;
+}
