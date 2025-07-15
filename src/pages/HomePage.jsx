@@ -169,12 +169,16 @@ import VirtualDressTryOn from '../components/HomeComponents/VirtualDressTryon';
 import HowItWorks from '../components/HomeComponents/HowITWorks';
 import Testimonials from '../components/HomeComponents/Testimonials';
 import SumayaFeatures from '../components/HomeComponents/SumayaFeatures';
+import PackagingProcess from '../components/HomeComponents/PackagingProcess';
+import Footer from '../components/Footer/Footer';
+import Navbar from '../components/Navbar/Navbar';
 
 
 
  const HomePage = () => {
   return (
     <>
+    <Navbar/>
     <HeroSection/>
     <CategoryFrame/>
     <AboutUs/>
@@ -182,6 +186,8 @@ import SumayaFeatures from '../components/HomeComponents/SumayaFeatures';
     <HowItWorks/>
     <Testimonials/>
     <SumayaFeatures/>
+    <PackagingProcess/>
+    <Footer/>
     </>
   )
 }

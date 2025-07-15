@@ -9,7 +9,7 @@ const AboutUs = () => {
     <section className="relative bg-[#f9f4ef] py-16 px-6 lg:px-20 overflow-hidden">
       {/* Decorative Corner Frames */}
       <img
-        src={top_frame} // example SVG
+        src={top_frame} 
         alt="Corner Frame Top Right"
         className="hidden md:block absolute top-0 right-0 w-32 opacity-30"
       />
