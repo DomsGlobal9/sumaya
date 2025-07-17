@@ -22,8 +22,8 @@ const AboutUs = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center relative z-10">
         {/* Text Content */}
         <div>
-          <h2 className="text-2xl sm:text-3xl font-bold text-orange-700 mb-4 tracking-widest">
-            ABOUT US
+          <h2 className="text-4xl sm:text-5xl font-serif font-bold text-[#D4793D] mb-2 ">
+            About Us
           </h2>
           <p className="text-gray-700 leading-relaxed mb-6">
             At Sumaya, we’re redefining how Indian fashion is created, shared, and sold.
@@ -37,8 +37,10 @@ const AboutUs = () => {
             product catalog, Sumaya empowers people from all walks of life to take part
             in the fashion economy — without inventory, without overheads, and without limits.
           </p>
-          <button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-md shadow-md transition">
-            DISCOVER THE PROCESS
+          <button className="bg-[#D4793D] hover:bg-[#D4794D] text-white px-6 py-3 rounded-md shadow-md transition"
+            onClick={()=>Navigate('/how-it-works')}
+          >
+            Discover the Process
           </button>
         </div>
 
@@ -55,14 +57,14 @@ const AboutUs = () => {
       <img
         src={set1}
         alt="Bottom Left"
-        className="absolute bottom-0 left-0 top-80 w-[200px] h-[250px] object-cover rounded-xl"
+        className="absolute bottom-0 left-0 top-80 w-[200px] h-[250px] object-cover rounded-xl animate__animated animate__slideInUp "
       />
 
       {/* Bottom-right tall image */}
       <img
         src={set2}
         alt="Right"
-        className="absolute bottom-0 top-[180px] left-[70px] w-[450px] h-[300px] object-cover rounded-xl"
+        className="absolute bottom-0 top-[180px] left-[70px] w-[450px] h-[300px] object-cover rounded-xl animate__delay-2s"
       />
     </div>
       </div>

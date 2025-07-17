@@ -191,12 +191,12 @@ const Testimonials = () => {
       >
         <path
           d="M20 0H0V20M80 0H100V20M100 80V100H80M20 100H0V80"
-          stroke="#D97706"
+          stroke="#D4793D"
           strokeWidth="2"
         />
         <path
           d="M35 15H65M85 35V65M65 85H35M15 65V35"
-          stroke="#D97706"
+          stroke="#D4793D"
           strokeWidth="1"
           opacity="0.5"
         />
@@ -211,7 +211,7 @@ const Testimonials = () => {
       <img
         src={top_left_frame}
         alt=""
-        className="absolute top-8 left-2 rotate-270 w-40 pointer-events-none select-none"
+        className="absolute top-8 left-2 rotate-270 w-45 pointer-events-none select-none"
         draggable="false"
       />
 
@@ -219,7 +219,7 @@ const Testimonials = () => {
       <img
         src={bottom_left_frame}
         alt=""
-        className="absolute bottom-8 right-1 rotate-272 w-40 pointer-events-none select-none"
+        className="absolute bottom-8 right-1 rotate-272 w-45 pointer-events-none select-none"
         draggable="false"
       />
 
@@ -229,7 +229,7 @@ const Testimonials = () => {
       <DecorativeFrame className="bottom-8 right-8 rotate-180" /> */}
 
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl font-bold text-orange-600 text-start mb-12 mt-[40px]">
+        <h2 className="text-4xl sm:text-5xl font-serif font-bold text-[#D4793D] mb-2">
           What our Sellers Say
         </h2>
 
@@ -237,21 +237,21 @@ const Testimonials = () => {
           {/* Navigation Arrows */}
           <button
             onClick={prevSlide}
-            className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 w-10 h-10 bg-orange-500 text-white rounded-full flex items-center justify-center hover:bg-orange-600 transition-colors"
+            className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 w-10 h-10 bg-[#D4793D] text-white rounded-full flex items-center justify-center hover:bg-orange-600 transition-colors"
           >
             <ChevronLeft size={20} />
           </button>
 
           <button
             onClick={nextSlide}
-            className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 w-10 h-10 bg-orange-500 text-white rounded-full flex items-center justify-center hover:bg-orange-600 transition-colors"
+            className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 w-10 h-10 bg-[#D4793D] text-white rounded-full flex items-center justify-center hover:bg-orange-600 transition-colors"
           >
             <ChevronRight size={20} />
           </button>
 
           {/* Testimonial Cards */}
           <div className="mx-19">
-            <div className="bg-orange-200 p-5 rounded-lg shadow-lg">
+            <div className="bg-[#D4793D]/40 p-5 rounded-lg shadow-lg">
               <div className="bg-white p-5  rounded-lg relative">
                 <div className="mb-4">
                   <span className="text-lg font-semibold text-gray-800">
@@ -289,7 +289,7 @@ const Testimonials = () => {
                 key={index}
                 onClick={() => goToSlide(index)}
                 className={`w-3 h-3 rounded-full transition-colors ${
-                  index === currentSlide ? "bg-orange-500" : "bg-gray-300"
+                  index === currentSlide ? "bg-[#D4793D]" : "bg-gray-300"
                 }`}
               />
             ))}

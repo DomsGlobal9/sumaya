@@ -5,7 +5,11 @@ import HeroImg from "../../assets/main_hero_img.png";
 import Left_frame from "../../assets/left_frame_bg.jpg";
 import Right_frame from "../../assets/right_frame_bg.jpg";
 import rating_star from "../../assets/rating_star.png";
+import { useNavigate} from 'react-router-dom';
+
 const HeroSection = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="w-full bg-white overflow-hidden relative">
       <div className="flex flex-col lg:flex-row items-center justify-between px-6 lg:px-16">
@@ -21,7 +25,9 @@ const HeroSection = () => {
           </span>
 
           <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 pt-9">
-            <button className="bg-[#D4793D] text-white px-5 py-2 rounded-sm text-sm font-semibold">
+            <button className="bg-[#D4793D] text-white px-5 py-2 rounded-sm text-sm font-semibold"
+                  onClick={()=>navigate("/product-category")}
+            >
               Browse Collection
             </button>
             <button className="border border-[#D4793D] text-[#D4793D] px-5 py-2 rounded-sm text-sm font-semibold">

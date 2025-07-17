@@ -1,4 +1,4 @@
-import products from "../../data/products";
+import {products} from "../../data/products";
 import ProductCard from "./ProductCard";
 import React from "react";
 

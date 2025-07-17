@@ -1,4 +1,4 @@
-export default [
+export const products = [
   {
     brand: "Bonita Boutique",
     name: "Blue Anarkali Kurti",
@@ -60,8 +60,8 @@ export default [
     originalPrice: 2300,
     salePrice: 2100,
     rating: 4.6,
-    status: "Ready to Ship",
-    statusColor: "red-500",
+     status: "Customizable",
+    statusColor: "green-500",
     outOfStock: false,
     image: ["catProduct05.jpeg",
       "catProduct0502.jpeg",
@@ -80,7 +80,36 @@ export default [
       "catProduct06.jpeg"
     ],
   },
-  
 
-  // Add more entries here...
 ];
+
+export const BrandProducts = [
+    {
+    brand: "Bonita Boutique",
+    name: "Flower Printed Kurta",
+    originalPrice: 2000,
+    salePrice: 1799,
+    rating: 4.6,
+    status: "Customizable",
+    statusColor: "green-500",
+    outOfStock: false,
+    image: ["catProduct02.png",
+      "catProduct0202.png",
+    ],
+
+  },
+   {
+    brand: "Bonita Boutique",
+    name: "Embroidery Kurti",
+    originalPrice: 2300,
+    salePrice: 2100,
+    rating: 4.6,
+     status: "Customizable",
+    statusColor: "green-500",
+    outOfStock: false,
+    image: ["catProduct05.jpeg",
+      "catProduct0502.jpeg",
+    ],
+  },
+
+]

@@ -7,6 +7,10 @@ import LoginTypePage from '../pages/LoginTypePage.jsx';
 import LoginPage from '../pages/LoginPage.jsx';
 import SignupPage from '../pages/SignupPage.jsx';
 import ForgotPassword from '../pages/ForgotPasswordPage.jsx';
+import AfterSharePage from '../pages/afterSharePage.jsx';
+import CustomizePage from '../pages/customizePage.jsx';
+import CheckoutFlow from '../pages/checkoutFlow.jsx';
+// import Navbar from '../components/Navbar/Navbar.jsx';
 
 
 
@@ -14,15 +18,18 @@ import ForgotPassword from '../pages/ForgotPasswordPage.jsx';
 function RoutesPage() {  
     return (
     <BrowserRouter>
+    
       <Routes>
         <Route path="/" element={<LoginTypePage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignupPage />} />
         <Route path="/home" element={<HomePage />} />
         <Route path="/forget-password" element={<ForgotPassword/>} />
-
         <Route path="/product-category" element={<ProductCategoryPage />} />
+        <Route path='/after-Share' element={<AfterSharePage/>}/>
+        <Route path='/customize' element={<CustomizePage/>} />
         <Route path="/how-it-works" element={<HowItWorks />} />
+        <Route path='/checkout' element={<CheckoutFlow/>}/>
         {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>
       

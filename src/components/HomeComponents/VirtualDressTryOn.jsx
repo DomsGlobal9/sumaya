@@ -93,17 +93,20 @@ const VirtualDressTryOn = () => {
     <div className="min-h-screen bg-[#f5ede5] flex flex-col md:flex-row items-center justify-center">
       {/* Left Section */}
       <div>
-        <img src={Tryon_frame} alt="" className="h-[600px] w-full" />
+        <img src={Tryon_frame} alt="" className="h-[640px] w-full" />
+      </div>
+      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center relative z-10">
+
       </div>
       <div className="md:w-1/2 w-full md:pr-12 ps-6">
-        <h1 className="text-4xl font-bold text-[#c97f3d] mb-4">
+        <h1 className="text-4xl sm:text-5xl font-serif font-bold text-[#D4793D] mb-2">
           Try Dresses Virtually
         </h1>
         <p className="text-gray-700 mb-6">
           Visualize outfits on a virtual model that matches your body type and style.
           Browse our sarees, lehengas, and more—then see how they look in real time.
         </p>
-        <h2 className="text-lg font-semibold text-[#c97f3d] mb-2">
+        <h2 className="text-lg font-bold text-[#c97f3d] mb-2">
           How it Works
         </h2>
         <ul className="list-disc list-inside text-gray-700 mb-6">
@@ -122,7 +125,7 @@ const VirtualDressTryOn = () => {
         <img
           src={Phone_bg_frame}
           alt="Phone_bg_frame"
-          className="w-[550px] absolute left-[380px] top-[360px] -translate-x-1/2 -translate-y-1/2 z-0"
+          className="w-[550px] absolute left-[350px] top-[384px] -translate-x-1/2 -translate-y-1/2 z-0 overflow-hidden "
           style={{ pointerEvents: "none" }}
         />
         {/* Phone Mockup */}
