@@ -5,8 +5,11 @@ import facebook from '../../assets/sharemodel/facebook.png'
 import snapchat from '../../assets/sharemodel/snapchat.png'
 import whatsapp from '../../assets/sharemodel/whatsapp.png'
 import Slider from "react-slick";
+import { useNavigate } from "react-router-dom";
 
-export default function ProductCard({ product }) {
+
+export default function ProductCard({product}) {
+  const navigate = useNavigate()
   const [sliderRef, setSliderRef] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
   const [isCopied, setIsCopied] = useState(false);
@@ -69,7 +72,9 @@ export default function ProductCard({ product }) {
   }, [isOpen]);
 
   return (
-    <div className="bg-white rounded-xl shadow-md relative w-[279px] h-[487px]">
+    <div className="bg-white rounded-xl shadow-md relative w-[279px] h-[487px] cursor-pointer"
+      onClick={()=>navigate(`/product-detailed/${product.id}`)}
+    >
 
       {/* Heart Icon */}
       <button className="absolute top-3 right-3 z-10 p-1">
@@ -146,7 +151,7 @@ export default function ProductCard({ product }) {
               }`}
             disabled={product.outOfStock}
           >
-             "Add to Cart"
+             Add to Cart
           </button>
 
           <button
@@ -222,11 +227,7 @@ export default function ProductCard({ product }) {
             </div>
           )}
 
-        </div>
-      </div>
-
-      {/* Slider Styles */}
-      <style jsx>{`
+           <style jsx>{`
         .custom-dots {
           position: absolute !important;
           bottom: 8px !important;
@@ -251,6 +252,17 @@ export default function ProductCard({ product }) {
           overflow: hidden;
         }
       `}</style>
+
+        </div>
+      </div>
+
+      {/* Slider Styles */}
+     
     </div>
+    
   );
 }
+
+
+
+

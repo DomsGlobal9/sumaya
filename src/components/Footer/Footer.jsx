@@ -11,7 +11,7 @@ const Footer = () => {
       <img
               src={top_left_frame}
               alt=""
-              className="absolute top-0 right-0 w-45 pointer-events-none select-none"
+              className="absolute top-0 right-0 w-40 pointer-events-none select-none"
               draggable="false"
             />
 
@@ -68,7 +68,7 @@ const Footer = () => {
       </div>
 
       {/* Divider */}
-      <div className="border-t border-gray-400 mt-30 pt-6 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500 gap-4">
+      <div className="border-t border-gray-400 mt-40 pt-6 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500 gap-4">
         <div className="flex gap-4">
           <a href="#" className="hover:underline">Terms</a>
           <a href="#" className="hover:underline">Privacy</a>

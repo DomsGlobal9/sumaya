@@ -42,13 +42,13 @@ const PackagingProcess = () => {
       <img
         src={bottom_left_frame}
         alt=""
-        className="absolute bottom-0 left-0 w-45 pointer-events-none select-none"
+        className="absolute -bottom-1 right-0 rotate-272 w-40 pointer-events-none select-none"
         draggable="false"
       />
       <img
         src={top_left_frame}
         alt=""
-        className="absolute top-0 right-0 w-45 pointer-events-none select-none"
+        className="absolute -top-1 left-0  rotate-272 w-40 pointer-events-none select-none"
         draggable="false"
       />
 
@@ -59,7 +59,7 @@ const PackagingProcess = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-4xl sm:text-5xl font-serif font-bold text-[#D4793D] mb-2">
+          <h2 className="text-4xl sm:text-5xl font-serif mt-1 font-bold text-[#D4793D] mb-2">
             Our Packaging Process
           </h2>
           <p className="text-left text-gray-700 text-base md:text-lg mb-10 max-w-3xl">

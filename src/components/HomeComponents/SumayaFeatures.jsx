@@ -48,18 +48,18 @@ const SumayaFeatures = () => {
   ];
 
   return (
-    <div className="bg-orange-50 py-16 px-4 relative overflow-hidden min-h-[640px]">
+    <div className="bg-orange-50 px-4 relative overflow-hidden min-h-[640px]">
       <img
         src={top_left_frame}
         alt=""
-        className="absolute top-0 left-2 rotate-270 w-50 pointer-events-none select-none"
+        className="absolute top-0 right-0 w-40 pointer-events-none select-none"
         draggable="false"
       />
       
       <img
         src={bottom_left_frame}
         alt=""
-        className="absolute bottom-0 right-1 rotate-272 w-50 pointer-events-none select-none"
+        className="absolute bottom-0 left-0 w-40 pointer-events-none select-none"
         draggable="false"
       />
 
@@ -79,13 +79,13 @@ const SumayaFeatures = () => {
           {features.map((feature) => (
            <div 
   key={feature.id} 
-  className="text-center flex-1 max-w-[200px] transition-all duration-300 group" 
+  className="text-center flex-1 max-w-[290px] transition-all duration-300 group" 
 >
   <div className="relative mb-4">
     <img
       src={feature.image}
       alt={feature.title}
-      className="w-full h-32 mx-auto rounded-2xl object-cover shadow-lg cursor-pointer transition-transform duration-300 group-hover:scale-105"
+      className="w-full h-42  mx-auto rounded-2xl object-cover shadow-lg cursor-pointer transition-transform duration-300 group-hover:scale-105"
     />
   </div>
   <h3 className="text-lg font-semibold text-gray-800 mb-2">

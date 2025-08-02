@@ -31,17 +31,20 @@ const Navbar = () => {
         </button>
 
         {/* Logo */}
-        <div className="text-2xl font-bold text-green-800">
+        <a href='#home' className="text-2xl font-bold text-green-800">
           <img 
             src={logo_icon} 
             alt="logo_img" 
             className="inline w-35 cursor-pointer" 
             onClick={() => navigate('/home')} 
           />
-        </div>
+        </a>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex gap-8 font-medium text-gray-700">
+          
+          <a className="cursor-pointer" href="#about">ABOUT US</a>
+          
           {/* Trends Dropdown */}
           <Menu as="div" className="relative">
             <Menu.Button className="flex items-center gap-1 cursor-pointer">
@@ -86,7 +89,6 @@ const Navbar = () => {
             </Menu.Items>
           </Menu>
 
-          <div className="cursor-pointer">ABOUT US</div>
         </nav>
 
         {/* Icons - Keeping your exact structure */}
