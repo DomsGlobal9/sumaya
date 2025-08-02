@@ -21,8 +21,9 @@ function RoutesPage() {
     return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<LoginTypePage />} />
+        {/* <Route path="/" element={<LoginTypePage />} /> */}
         <Route path="/login" element={<LoginPage />} />
+         <Route path="/" element={<HomePage />} /> 
         <Route path="/signup" element={<SignupPage />} />
         <Route path="/home" element={<HomePage />} />
         <Route path="/forget-password" element={<ForgotPassword/>} />

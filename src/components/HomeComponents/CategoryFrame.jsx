@@ -7,7 +7,7 @@ import imgElegant from "../../assets/Everyday_Elegance.png";
 import Fashion_film_video from "../../assets/Indian_Fashion_Film_video.mp4";
 import sumaya_logo from "../../assets/Sumaya_Logo.png";
 import { useNavigate } from "react-router-dom";
-import imgWedding from "../../assets/weddingCollection.png";
+import imgWedding from "../../assets/Wedding_Dresses.png";
 
 const CategoryFrame = () => {
   const navigate = useNavigate();
