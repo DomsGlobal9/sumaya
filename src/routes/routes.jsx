@@ -8,12 +8,11 @@ import LoginPage from '../pages/LoginPage.jsx';
 import SignupPage from '../pages/SignupPage.jsx';
 import ForgotPassword from '../pages/ForgotPasswordPage.jsx';
 import AfterSharePage from '../pages/afterSharePage.jsx';
-import CustomizePage from '../pages/customizePage.jsx';
+import CustomizePage from '../pages/CustomizePage.jsx';
 import CheckoutFlow from '../pages/checkoutFlow.jsx';
 import BecomeSeller from '../pages/BecomeSeller.jsx';
 import BrowseCollection from '../pages/BrowseCollection.jsx';
 import ProductDetail from '../pages/ProductDetailPage.jsx';
-import CustomizePage from '../pages/CustomizePage.jsx';
 
 
 
