@@ -2,12 +2,12 @@ import React from "react";
 import { delay, motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import imgKurti from "../../assets/Kurthi_set.png";
-import imgWedding from "../../assets/Wedding_Dresses.png";
 import imgSaree from "../../assets/saree.png";
 import imgElegant from "../../assets/Everyday_Elegance.png";
 import Fashion_film_video from "../../assets/Indian_Fashion_Film_video.mp4";
 import sumaya_logo from "../../assets/Sumaya_Logo.png";
 import { useNavigate } from "react-router-dom";
+import imgWedding from "../../assets/weddingCollection.png";
 
 const CategoryFrame = () => {
   const navigate = useNavigate();
