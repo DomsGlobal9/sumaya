@@ -13,6 +13,7 @@ import CheckoutFlow from '../pages/checkoutFlow.jsx';
 import BecomeSeller from '../pages/BecomeSeller.jsx';
 import BrowseCollection from '../pages/BrowseCollection.jsx';
 import ProductDetail from '../pages/ProductDetailPage.jsx';
+import CustomizePage from '../pages/CustomizePage.jsx';
 
 
 
