@@ -166,10 +166,10 @@ import HeroSection from '../components/HomeComponents/HeroSection'
 import CategoryFrame from '../components/HomeComponents/CategoryFrame';
 import AboutUs from '../components/HomeComponents/AboutUs';
 import VirtualDressTryOn from '../components/HomeComponents/VirtualDressTryOn.jsx';
-import HowItWorks from '../components/HomeComponents/HowITWorks';
-import Testimonials from '../components/HomeComponents/Testimonials';
-import SumayaFeatures from '../components/HomeComponents/SumayaFeatures';
-import PackagingProcess from '../components/HomeComponents/PackagingProcess';
+import HowItWorks from '../components/HomeComponents/HowITWorks.jsx';
+import Testimonials from '../components/HomeComponents/Testimonials.jsx';
+import SumayaFeatures from '../components/HomeComponents/SumayaFeatures.jsx';
+import PackagingProcess from '../components/HomeComponents/PackagingProcess.jsx';
 import Footer from '../components/Footer/Footer';
 import Navbar from '../components/Navbar/Navbar';
 
